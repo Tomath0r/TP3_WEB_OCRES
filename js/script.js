@@ -29,3 +29,12 @@ function start() {
       console.error(error);
     });
 }
+
+
+  function search() {
+    var input = document.getElementById("city-input").value;
+
+    alert("oui");
+
+    history.go(0);
+  }
